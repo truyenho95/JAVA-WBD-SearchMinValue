@@ -1,4 +1,4 @@
-public class SearchMinValue {
+public class FindMinValue {
   public static void main(String[] args) {
     int[] arr = {4, 12, 7, 8, 1, 6, 9};
     int index = minValue(arr);
@@ -6,7 +6,6 @@ public class SearchMinValue {
   }
 
   public static int minValue(int[] array) {
-
     int min = array[0];
     int index = 0;
 
